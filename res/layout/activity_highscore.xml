@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HighscoreActivity" >
+
+    <ListView
+        android:id="@+id/lvMyscore"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" >
+
+    </ListView>
+	<View android:layout_width="fill_parent"
+   		 	android:layout_height="1dip"
+		 	android:background="#FFFFFF" />
+
+	<ListView
+	    android:id="@+id/lvHighscore"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	</ListView>
+
+</LinearLayout>

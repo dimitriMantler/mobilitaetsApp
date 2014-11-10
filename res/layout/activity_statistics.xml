@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".StatisticsFragment" >
+
+    
+
+   
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:paddingLeft="16dp"
+   			 android:paddingRight="16dp">
+            
+            <TableLayout
+                android:id="@+id/tlTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gesamt"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+            <ImageView
+                android:id="@+id/ivSharesTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/empty_bar_wide" />
+             
+             <TableLayout
+        android:id="@+id/tlCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diesen Monat"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+             <ImageView
+                 android:id="@+id/ivSharesCurrent"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                 android:src="@drawable/empty_bar_wide" />
+             
+             <TableLayout
+        android:id="@+id/tlLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Letzen Monat"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+             <ImageView
+                 android:id="@+id/ivSharesLast"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                 android:src="@drawable/empty_bar_wide" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

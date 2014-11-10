@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sharing_preference">
+        <item>nicht Freigeben</item>
+        <item>nur für Freunde freigeben</item>
+        <item>Freigeben</item>  
+    </string-array>
+
+    <string-array name="values_sharing_preference">
+        <item>no</item>
+        <item>friends</item>
+        <item>global</item>  
+    </string-array>
+    
+</resources>

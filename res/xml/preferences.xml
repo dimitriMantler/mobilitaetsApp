@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">   
+        
+        <CheckBoxPreference
+                android:key="checkbox_setlogindata"
+                android:defaultValue="true"
+                android:title="@string/checkbox_setlogindata" />
+        
+        <CheckBoxPreference
+                android:key="checkbox_autologin"
+                android:title="@string/checkbox_autologin"
+                android:dependency="checkbox_setlogindata" />
+        
+        <CheckBoxPreference
+                android:key="checkbox_autosync"
+                android:defaultValue="true"
+                android:title="@string/checkbox_autosync" />
+
+        <ListPreference
+                android:key="default_sharing"
+                android:title="@string/share"
+                android:entries="@array/sharing_preference"
+                android:entryValues="@array/values_sharing_preference"
+                android:dialogTitle="@string/share" />
+
+ 		
+
+        <PreferenceScreen android:title="@string/title_activity_help">
+
+            <intent android:action="android.intent.action.MAIN"
+    				android:targetPackage="de.fhbielefeld.ifm"
+    				android:targetClass="de.fhbielefeld.ifm.HelpActivity" />  
+
+        </PreferenceScreen>
+        
+        <PreferenceScreen android:title="@string/title_activity_about">
+
+            <intent android:action="android.intent.action.MAIN"
+    				android:targetPackage="de.fhbielefeld.ifm"
+    				android:targetClass="de.fhbielefeld.ifm.AboutActivity" />  
+
+        </PreferenceScreen>
+        
+        <PreferenceCategory 
+            android:title="@string/developersettings">
+            
+            <CheckBoxPreference
+                android:key="checkbox_dummydata"
+                android:defaultValue="true"
+                android:title="@string/checkbox_dummydata" />
+            
+            <EditTextPreference
+                android:key="edittext_serveradress"
+                android:defaultValue="http://192.168.0.102:8080/WebServiceREST/"
+                android:title="@string/edittext_serveradress" />
+            
+        </PreferenceCategory>
+
+    
+
+</PreferenceScreen>

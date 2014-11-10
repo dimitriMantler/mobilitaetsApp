@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvAverageSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvDuracy"
+            android:layout_alignBottom="@+id/tvDuracy"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/tvName"
+            android:gravity="bottom"
+            android:text="22.8 kmh"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvName"
+            android:layout_marginTop="34dp"
+            android:gravity="bottom"
+            android:text="5.67 km"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvDistance"
+            android:layout_alignLeft="@+id/tvAverageSpeed"
+            android:layout_alignParentRight="true"
+            android:gravity="bottom"
+            android:text="28.07.2013"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/tvDuracy"
+            android:layout_below="@+id/tvValue"
+            android:text="Arbeitsweg"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="@color/dark_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvDate"
+            android:layout_alignParentTop="true"
+            android:text="@string/li_date"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvDuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvSynced"
+            android:layout_alignRight="@+id/tvSynced"
+            android:gravity="bottom"
+            android:text="00:44:58"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvValue"
+            android:textColor="@color/dark_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/li_name"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/ivMedalicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvDate"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/ivShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvDuracy"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvDate"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvDuracy2"
+            android:layout_alignBottom="@+id/tvDuracy2"
+            android:layout_alignParentLeft="true"
+            android:text="@string/li_distance"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/tvDistance2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivShare"
+            android:layout_alignLeft="@+id/tvAverageSpeed"
+            android:text="@string/li_average_speed"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/tvSynced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvDistance"
+            android:gravity="bottom"
+            android:text="nicht synchronisiert"
+            android:textColor="@color/dark_gray"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivFrequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvSynced"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvAverageSpeed"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvDuracy2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvDuracy"
+            android:layout_alignLeft="@+id/tvDuracy"
+            android:text="@string/li_duracy"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_gray" />
+
+    </RelativeLayout>
+
+</LinearLayout>

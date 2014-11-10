@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.fhbielefeld.ifm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+        <activity
+            android:name="de.fhbielefeld.ifm.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.MainMenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.HomeFragment"
+            android:label="@string/title_activity_home_fragment" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.LogbookFragment"
+            android:label="@string/title_activity_logbook_fragment" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.PreferenceActivity"
+            android:label="@string/title_activity_preference"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.MonthRaceFragment"
+            android:label="@string/title_activity_month_race_fragment" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.StatisticsFragment"
+            android:label="@string/title_activity_statistics_fragment" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.LogbookEntryDetailsActivity"
+            android:label="@string/title_activity_logbook_entry_details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.TransportationListActivity"
+            android:label="@string/title_activity_transportation_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.TrackingActivity"
+            android:label="@string/title_activity_tracking"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.SetPathActivity"
+            android:label="@string/title_activity_set_path"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.EditEntryActivity"
+            android:label="@string/title_activity_edit_entry"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.adapter.CustomSpinnerAdapter"
+            android:label="@string/title_activity_custom_spinner_adapter" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.MonthRaceDetailsActivity"
+            android:label="@string/title_activity_month_race_details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.adapter.MonthRaceListAdapter"
+            android:label="@string/title_activity_month_race_list_adapter" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.adapter.MonthRaceExpandableListAdapter"
+            android:label="@string/title_activity_month_race_expandable_list_adapter" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.MyMedalsActivity"
+            android:label="@string/title_activity_medals"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.OwnMedalsFragment"
+            android:label="@string/title_dummy" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.EarnedMedalsFragment"
+            android:label="@string/title_dummy" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.adapter.MedalGridViewAdapter"
+            android:label="@string/title_dummy" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.MedalsActivity"
+            android:label="@string/title_activity_medals"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.ReportActivity"
+            android:label="@string/title_activity_report"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAV9V4HaxuxNN88qC8m-_mkPmP7mpI9_6A" />
+
+        <activity
+            android:name="de.fhbielefeld.ifm.HighscoreActivity"
+            android:label="@string/title_activity_highscore"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.FriendlistActivity"
+            android:label="@string/title_activity_friendlist"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.SearchFriendActivity"
+            android:label="@string/title_activity_search_friend"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.FriendDetailsActivity"
+            android:label="@string/title_activity_friend_details" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="de.fhbielefeld.ifm.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+    </application>
+
+</manifest>

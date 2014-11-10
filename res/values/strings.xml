@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMK-MobilitätsApp</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="dummy">Dummy</string>
+
+    <!-- Activity login -->
+    <string name="anmeldung">Anmeldung</string>
+    <string name="email">E-mail</string>
+    <string name="passwort">Passwort</string>
+    <string name="login">login</string>
+    <string name="register">registrieren</string>
+    <string name="hello_world">hello world</string>
+
+    <!-- Activity Mainmenu -->
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Fahrtenbuch</string>
+    <string name="title_section3">Monatsrennen</string>
+    <string name="title_section4">Statistik</string>
+    <string name="title_activity_month_race_fragment">Monatsrennen</string>
+    <string name="title_activity_statistics_fragment">Statistik</string>
+    <string name="title_activity_logbook_fragment">Logbuch</string>
+    <string name="title_activity_home_fragment">Home</string>
+    <string name="title_activity_logbook_entry_details">Logbucheintrag-Details</string>
+
+    <!-- Fragment Logbook -->
+    <string name="no_entry">Noch keine Einträge vorhanden</string>
+
+    <!-- listItem Logbookentry/ Activity LogbookEntryDetails/ Activity LogBookEntryDetailsEdit -->
+    <string name="li_name">Name</string>
+    <string name="li_date">Datum</string>
+    <string name="li_duracy">Dauer</string>
+    <string name="li_distance">Strecke</string>
+    <string name="li_average_speed">Mittl. Geschw.</string>
+    <string name="li_synced">synchronisiert</string>
+    <string name="li_not_synced">nicht synchronisiert</string>
+    <string name="li_points">Punkte</string>
+    <string name="li_level">Level</string>
+    <string name="li_value">Wert</string>
+
+    <!-- unsorted -->
+    <string name="sign_up">Beitreten</string>
+    <string name="leave">Verlassen</string>
+    <string name="message_leave_race">Wenn du das Rennen wirklich verlassen willst schreibe \"leave\" in das Textfeld</string>
+    <string name="message_signup_race_1">Die Anmeldung zu diesem Rennen kostet</string>
+    <string name="message_signup_race_2"> Punkte. Willst du dich zu diesem Rennen Anmelden?</string>
+    <string name="own_medals">Eigene Medaillen</string>
+    <string name="earned_medals">Errungene Medaillen</string>
+    <string name="title_dummy">Dummy_titel</string>
+    <string name="administrator">Administrator:</string>
+    <string name="start_2">Start:</string>
+    <string name="average_points">Durchschn.Punkte:</string>
+    <string name="racepoints">Punkte im Pott:</string>
+    <string name="min_level">Mindestlevel:</string>
+    <string name="access">Freigabe:</string>
+    <string name="participants">Teilnehmer</string>
+    <string name="medals">Medaillen</string>
+    <string name="donate">Spenden</string>
+    <string name="created_by">Erstellt von</string>
+    <string name="report">Melden</string>
+    <string name="no_medal_chosen">Keine Medaille ausgewählt</string>
+    <string name="report_info">Bitte beachte dass deine Daten aufgenommen werden, wenn du eine Medaille aufgrund von Spam oder unangemessenem bzw. fehlerhaftem Inhalts meldest,\num Missbrauch zu vermeiden.\n\nWähle einen Grund:</string>
+    <string name="content_offensive">anstößige Inhalte</string>
+    <string name="content_spam">Spam</string>
+    <string name="content_failure">fehlerhafte Inhalte</string>
+    <string name="friendlist">Freundesliste</string>
+    <string name="highscore">Highscore</string>
+    <string name="rank">Rang</string>
+    <string name="save_or_delete">Willst du die Strecke speichern oder löschen?</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="friendrequests"><b>Freundesanfragen</b></string>
+    <string name="friends"><b>Freunde</b></string>
+    <string name="this_month">Diesen Monat</string>
+    <string name="last_month">Letzen Monat</string>
+    <string name="all_time">Gesamt</string>
+    <string name="shared_logs">Geteilte Fahrtenbucheinträge</string>
+    <string name="loading_data">Lade Daten</string>
+	<string name="send_request_1">Willst du</string>
+	<string name="send_request_2">eine Freundschaftsanfrage senden?</string>
+	<string name="developersettings">Entwickleroptionen</string>
+	<string name="checkbox_dummydata">Testdaten</string>
+	<string name="edittext_serveradress">Serveradresse</string>
+	<string name="running">Laufend</string>
+	<string name="signedup">Angemeldet</string>
+	<string name="available">Verfügbar</string>
+	<string name="remove_friend_1">Willst du</string>
+	<string name="remove_friend_2">wirklich aus deiner Freundesliste entfernen?</string>
+    <string name="ways">Strecken</string>
+    <string name="enter_searchstring">Gib einen Suchbegriff ein um die Suche zu starten</string>
+    <string name="current">Diesen Monat</string>
+    <string name="last">Letzten Monat</string>
+    <string name="total">Gesamt</string>
+    <string name="invalid_track">Deine Strecke ist ungültig aufgrund zu hoher Geschwindigkeit</string>
+    <string name="empty_field">Die Felder dürfen nicht leer sein</string>
+	
+    <!-- Activity LogbookEntryDetails/ Activity LogBookEntryDetailsEdit -->
+    <string name="description">Beschreibung</string>
+    <string name="no_description">keine Beschreibung</string>
+    <string name="transportation">Fortbewegungsart</string>
+    <string name="frequency">Häufigkeit</string>
+    <string name="share">Freigabeoption</string>
+    <string name="edit">Editieren</string>
+
+    <!-- TransportationListActivity -->
+    <string name="choose_transport">Wähle eine Fortbewegungsart</string>
+    <string name="continue_button">Weiter</string>
+    <string name="message_activate_gps">GPS ist deaktiviert! Möchtest du es jetzt aktivieren?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <!-- TrackingActivity -->
+    <string name="end">Ende</string>
+    <string name="current_speed">Akt. Geschw.</string>
+
+    <!-- NewEntryAutoActivity -->
+    <string name="start">Start</string>
+    <string name="stop">Stopp</string>
+
+    <!-- Enums Transportation -->
+    <string name="t_foot">Zu Fuß</string>
+    <string name="t_bicycle">Fahrrad</string>
+    <string name="t_car">Auto</string>
+    <string name="t_motocycle">Motorrad</string>
+    <string name="t_train">Zug</string>
+    <string name="t_plane">Flugzeug</string>
+    <string name="t_bus">Bus</string>
+    <string name="t_ship">Schiff</string>
+    <string name="t_other1">Anders1</string>
+    <string name="t_other2">Anders2</string>
+    <string name="t_other3">Anders3</string>
+
+    <!-- Enums Frequency -->
+    <string name="f_regular">regelmäßig</string>
+    <string name="f_sometimes">sporadisch</string>
+    <string name="f_once">einmalig</string>
+
+    <!-- Enums Share -->
+    <string name="s_all">Alle</string>
+    <string name="s_global">Global</string>
+    <string name="s_national">National</string>
+    <string name="s_local">Ortschaft</string>
+    <string name="s_friends">Freunde</string>
+    <string name="s_no">Nein</string>
+
+    <!-- Activity Preference -->
+    <string name="title_activity_preference">Einstellungen</string>
+    <string name="wrong_login_credentials">Die angegebenen Daten sind falsch</string>
+
+    <!-- AlertDialog newEntry -->
+    <string name="message_new_entry">Neuer Logbucheintrag</string>
+    <string name="manual_new_entry">manuell</string>
+    <string name="auto_new_entry">automatisch</string>
+
+    <!-- AlertDialog AGB -->
+    <string name="title_agb">Datenschutzrechtliche Hinweise</string>
+    <string name="message_agb">Die von dir erhobenen Daten werden vertrauchlich behandelt und verwertet. Deine Daten werden nicht an dritte weitergegeben.\nDaten die an den Server gesendet werden enthalten\n- Standortdaten\n- Fahrtenbucheinträge\n- Statistiken\nWenn du hiermit einverstanden bist, bestätige dies bitte.</string>
+    <string name="accept_agb">Ja, ich akzeptiere</string>
+    <string name="deny_agb">Nein, ich akzeptiere nicht</string>
+
+    <!-- dummi strings for preference -->
+    <string name="inline_preferences">In-line preferences</string>
+    <string name="dialog_based_preferences">Dialog-based preferences</string>
+    <string name="launch_preferences">Launch preferences</string>
+    <string name="preference_attributes">Preference attributes</string>
+    <string name="title_checkbox_preference">Checkbox preference</string>
+    <string name="summary_checkbox_preference">This is a checkbox</string>
+    <string name="title_edittext_preference">Edit text preference</string>
+    <string name="summary_edittext_preference">An example that uses an edit text dialog</string>
+    <string name="dialog_title_edittext_preference">Enter your favorite animal</string>
+    <string name="title_list_preference">List preference</string>
+    <string name="summary_list_preference">An example that uses a list dialog</string>
+    <string name="dialog_title_list_preference">Choose one</string>
+    <string name="title_intent_preference">Intent preference</string>
+    <string name="summary_intent_preference">Launches an Activity from an Intent</string>
+    <string name="title_my_preference">My preference</string>
+    <string name="summary_my_preference">This is a custom counter preference</string>
+    <string name="title_advanced_toggle_preference">Haunted preference</string>
+    <string name="summary_on_advanced_toggle_preference">I\'m on! :)</string>
+    <string name="summary_off_advanced_toggle_preference">I\'m off! :(</string>
+    <string name="title_parent_preference">Parent checkbox preference</string>
+    <string name="summary_parent_preference">This is visually a parent</string>
+    <string name="title_child_preference">Child checkbox preference</string>
+    <string name="summary_child_preference">This is visually a child</string>
+    <string name="example_preference_dependency">Example preference dependency</string>
+    <string name="title_wifi">WiFi</string>
+    <string name="title_wifi_settings">WiFi settings</string>
+    <string name="default_value_list_preference">beta</string>
+    <string name="default_value_edittext_preference">Default value</string>
+    <!-- end dummi -->
+
+
+    <!-- AboutActivity -->
+    <string name="about">Version 0.1\n03.02.2014</string>
+
+    <!-- HelpActivity -->
+    <string name="question1">Wie werden meine Daten verarbeitet?</string>
+    <string name="answer1">Deine Streckendaten werden anonymisiert verarbeitet, solange sie nicht mit deinem Nutzerkonto synchronisiert worden sind. Dann erst sind deine Logbucheinträge an dein Nutzerkonto gebunden und können auf anderen Geräten, an denen du dich mit diesem Nutzerkonto anmeldest, heruntergeladen und angesehen werden.</string>
+    <string name="question2">Gehen meine nicht synchronisierten Logbucheinträge verloren wenn ich mich mit einem anderen Nutzerkonto auf diesem Gerät anmelde?</string>
+    <string name="answer2">Ja, nicht synchroniserte Daten werden aus Sicherheitsgründen gelöscht, beim Anmelden mit einem anderen Konto.</string>
+    <string name="question3">Wann werden meine Daten aktualisiert?</string>
+    <string name="answer3">Sobald du dich mit deinem Nutzerkonto anmeldest und eine Internetverbindung besteht werden deine aktuellsten Daten geladen, einige Daten werden während der Nutzung der App vom Server geladen.</string>
+    <string name="question4">Wie funktioniert der Offlinemodus?</string>
+    <string name="answer4">Solltest du dich schon einmal mit einem Nutzerkonto und einer bestehenden Internetverbindung angemeldet haben, kannst du die Trackingfunktion auch nutzen wenn du keine Verbindung zum Server hast.</string>
+
+    <!-- preference -->
+    <string name="checkbox_autologin">Automatisch anmelden</string>
+    <string name="checkbox_setlogindata">Logindaten setzen</string>
+    <string name="checkbox_autosync">Automatisch synchronisieren</string>
+    
+    <!-- titles -->
+    <string name="title_activity_transportation_list">Forbewegungsart</string>
+    <string name="title_activity_tracking">Aufzeichnung</string>
+    <string name="title_activity_set_path">SetPathActivity</string>
+    <string name="title_activity_edit_entry">Eintrag bearbeiten</string>
+    
+    <string name="title_activity_custom_spinner_adapter">CustomSpinnerAdapter</string>
+    <string name="title_activity_month_race_details">Monatsrennendetails</string>
+    <string name="title_activity_month_race_list_adapter">MonthRaceListAdapter</string>
+    <string name="title_activity_month_race_expandable_list_adapter">MonthRaceExpandableListAdapter</string>
+    
+    <string name="title_activity_medals">Meine Medaillen</string>
+    <string name="title_activity_report">Melden</string>
+    <string name="title_activity_highscore">Highscore</string>
+    <string name="title_activity_friendlist">Freundesliste</string>
+    <string name="title_activity_search_friend">Freundessuche</string>
+    <string name="title_activity_friend_details">Freundesdetails</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_help">Hilfe</string>
+
+</resources>

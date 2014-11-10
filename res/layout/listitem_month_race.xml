@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvMinLevel"
+            android:layout_alignBottom="@+id/tvMinLevel"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/tvName"
+            android:gravity="bottom"
+            android:text="GieRigo"
+            android:textColor="#EA0"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/tvDuracy2"
+            android:layout_below="@+id/tvValue"
+            android:text="Race01"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="@color/dark_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvDate"
+            android:layout_alignParentTop="true"
+            android:text="@string/li_date"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvValue"
+            android:textColor="@color/dark_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/li_name"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvDistance2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvAdmin"
+            android:layout_alignLeft="@+id/tvAdmin"
+            android:text="Admin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Teilnehmer"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/tvPlayerCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView01"
+            android:gravity="bottom"
+            android:text="2/2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvName"
+            android:text="Punkte"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom"
+            android:text="28.07.2013"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvAveragePoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:gravity="bottom"
+            android:text="14"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvMinLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvDuracy2"
+            android:layout_below="@+id/tvDuracy2"
+            android:gravity="bottom"
+            android:text="Level 0"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvDuracy2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvAveragePoints"
+            android:layout_toLeftOf="@+id/tvDate"
+            android:text="min Level"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_gray" />
+
+        <ImageView
+            android:id="@+id/ivShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvPlayerCount"
+            android:layout_below="@+id/tvPlayerCount"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+</LinearLayout>
